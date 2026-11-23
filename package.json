@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-ai-front-desk",
+  "version": "1.0.0",
+  "description": "Open-source AI front desk for WhatsApp and web chat: answers from your own FAQs, hands off to a person when it should. Zero dependencies; works with or without an AI key.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": { "start": "node --env-file-if-exists=.env src/server.js", "test": "node --test test/*.test.js" },
+  "keywords": ["whatsapp", "whatsapp-bot", "whatsapp-cloud-api", "chatbot", "ai-agent", "customer-support", "faq-bot", "human-handoff", "claude", "anthropic", "small-business"],
+  "author": "SK Pokhrel (https://www.linkedin.com/in/somakant)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/somakant/whatsapp-ai-front-desk.git" },
+  "homepage": "https://somakant.github.io/whatsapp-ai-front-desk/",
+  "engines": { "node": ">=20.6" }
+}
